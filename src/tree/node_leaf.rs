@@ -19,7 +19,7 @@ impl RopeNode for NodeLeaf {
     fn insert(&mut self, index: usize, string: &str) {
         unimplemented!()
     }
-    
+
     fn append(&mut self, string: &str) {
         self.buffer.extend(string.as_bytes());
     }
